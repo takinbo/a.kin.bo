@@ -3,36 +3,43 @@
 # # # # # # # #
 
 # Basic
-name:               "Kiko"
-description:        "a clean, lightweight and minimalistic blog theme for jekyll"
+name:               "a.kin.bo"
+description:        "a web journal by Tim Akinbo"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//kiko.gfjaru.com"
-author:             "gfjaru"
+url:                "//a.kin.bo"
+author:             "takinbo"
 twitter:
-  username:         "gfjaru"
-#facebook:
-#  app_id:           1234
-#    publisher:      1234
+  username:         "takinbo"
 
 # URL
 baseurl:            ""
 #baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title/
+permalink:          /:title/
 
 # Markdown
 markdown:           kramdown
 
-# Navigation
-nav:
-  - name:           "About"
-    href:           "//kiko.gfjaru.com/about"
-  - name:           "Download"
-    href:           "//github.com/gfjaru/Kiko/releases"
+exclude:            ["css/", "README.md"]
 
 # Sass
 sass:
   style:            :compressed
+
+# Navigation
+nav:
+  - name:           "twitter"
+    href:           "https://twitter.com/takinbo"
+  - name:           "github"
+    href:           "https://github.com/takinbo"
+  - name:           "rss"
+    href:           "/feed.xml"
+
+compress_html:
+  comments:         ["<!-- ", " -->"]
+  clippings:        all
+  endings:          all
+  startings:        all
 
 # Scopes
 defaults:
@@ -48,6 +55,8 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+      author:       "takinbo"
 
 gems:
   - jekyll-seo-tag
+
