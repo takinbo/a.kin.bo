@@ -20,7 +20,7 @@ permalink:          /:title/
 # Markdown
 markdown:           kramdown
 
-exclude:            ["css/", "README.md"]
+exclude:            ["css/", "README.md", "ipscend.json"]
 
 # Sass
 sass:
