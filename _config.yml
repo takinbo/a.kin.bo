@@ -34,6 +34,8 @@ nav:
     href:           "https://github.com/takinbo"
   - name:           "rss"
     href:           "/feed.xml"
+  - name:           "tip.me"
+    href:           "http://takinbo.tip.me"
 
 compress_html:
   comments:         ["<!-- ", " -->"]
