@@ -3,11 +3,11 @@
 # # # # # # # #
 
 # Basic
-name:               "a.kin.bo"
+name:               "akinbo.org"
 description:        "a web journal by Tim Akinbo"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//a.kin.bo"
+url:                "//akinbo.org"
 author:             "takinbo"
 twitter:
   username:         "takinbo"
