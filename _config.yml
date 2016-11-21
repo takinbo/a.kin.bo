@@ -20,7 +20,7 @@ permalink:          /:title/
 # Markdown
 markdown:           kramdown
 
-exclude:            ["css/", "README.md", "ipscend.json"]
+exclude:            ["css/", "README.md", "ipscend.json", "Gemfile", "Gemfile.lock"]
 
 # Sass
 sass:
@@ -34,8 +34,6 @@ nav:
     href:           "https://github.com/takinbo"
   - name:           "rss"
     href:           "/feed.xml"
-  - name:           "tip.me"
-    href:           "http://takinbo.tip.me"
 
 compress_html:
   comments:         ["<!-- ", " -->"]
